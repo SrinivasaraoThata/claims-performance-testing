@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1678901234000,150,HTTP Request,200,OK,Thread Group 1-1,text,true,,1024,512,1,1,http://host/,100,0,50
+1678901234150,800,HTTP Request,200,OK,Thread Group 1-2,text,true,,1024,512,2,2,http://host/,150,0,50
+1678901234300,120,HTTP Request,200,OK,Thread Group 1-3,text,true,,1024,512,3,3,http://host/,110,0,50
+1678901234450,1500,HTTP Request,200,OK,Thread Group 1-4,text,true,,1024,512,3,3,http://host/,140,0,50
+1678901234600,110,HTTP Request,200,OK,Thread Group 1-5,text,true,,1024,512,3,3,http://host/,105,0,50
