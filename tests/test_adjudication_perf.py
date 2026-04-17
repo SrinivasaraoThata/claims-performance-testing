@@ -1,6 +1,10 @@
 import os
 from pathlib import Path
 
+import pytest
+
+@pytest.mark.smoke
+@pytest.mark.stress
 def test_adjudication_status_stress(scenario, jmeter_runner, parser, validator):
     jmx_path = Path("jmeter/test-plans/adjudication_status_stress.jmx")
     jtl_path = Path(f"target/results/adjudication_status_stress_{scenario}.jtl")

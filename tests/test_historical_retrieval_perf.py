@@ -1,6 +1,10 @@
 import os
 from pathlib import Path
 
+import pytest
+
+@pytest.mark.smoke
+@pytest.mark.spike
 def test_historical_retrieval_spike(scenario, jmeter_runner, parser, validator):
     jmx_path = Path("jmeter/test-plans/historical_retrieval_spike.jmx")
     jtl_path = Path(f"target/results/historical_retrieval_spike_{scenario}.jtl")

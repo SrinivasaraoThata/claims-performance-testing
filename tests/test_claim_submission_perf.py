@@ -1,6 +1,10 @@
 import os
 from pathlib import Path
 
+import pytest
+
+@pytest.mark.smoke
+@pytest.mark.load
 def test_claim_submission_load(scenario, jmeter_runner, parser, validator):
     jmx_path = Path("jmeter/test-plans/claim_submission_load.jmx")
     jtl_path = Path(f"target/results/claim_submission_load_{scenario}.jtl")
