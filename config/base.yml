@@ -1,0 +1,6 @@
+host: parabank.parasoft.com
+port: 443
+protocol: https
+jmeter_home: apache-jmeter-5.6.3
+results_dir: target/results
+reports_dir: target/reports

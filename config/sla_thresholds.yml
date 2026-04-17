@@ -1,0 +1,41 @@
+claim_submission:
+  smoke:
+    p95: 2000
+    error_rate: 0.0
+  load:
+    p95: 2000
+    error_rate: 0.01
+  stress:
+    p95: 3500
+    error_rate: 0.05
+  spike:
+    p95: 5000
+    error_rate: 0.10
+
+adjudication_status:
+  smoke:
+    p95: 1500
+    error_rate: 0.0
+  load:
+    p95: 1500
+    error_rate: 0.01
+  stress:
+    p95: 3000
+    error_rate: 0.05
+  spike:
+    p95: 4500
+    error_rate: 0.05
+
+historical_retrieval:
+  smoke:
+    p95: 3000
+    error_rate: 0.0
+  load:
+    p95: 3000
+    error_rate: 0.01
+  stress:
+    p95: 5000
+    error_rate: 0.05
+  spike:
+    p95: 8000
+    error_rate: 0.10

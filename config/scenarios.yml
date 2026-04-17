@@ -1,0 +1,16 @@
+smoke:
+  threads: 5
+  rampup: 5
+  duration: 60
+load:
+  threads: 50
+  rampup: 10
+  duration: 300
+stress:
+  threads: 150
+  rampup: 30
+  duration: 600
+spike:
+  threads: 200
+  rampup: 5
+  duration: 120
