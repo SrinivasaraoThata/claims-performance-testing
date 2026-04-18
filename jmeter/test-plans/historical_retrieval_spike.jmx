@@ -67,7 +67,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/parabank/services/bank/accounts/${__Random(10000,99999)}/transactions/month/2023/${__Random(1,12)}</stringProp>
+          <stringProp name="HTTPSampler.path">/parabank/services/bank/accounts/${__Random(10000,99999)}/transactions?month=${__Random(1,12)}&amp;year=2023</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
